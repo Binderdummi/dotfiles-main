@@ -1,0 +1,25 @@
+selected_tab: oc_page
+selected_gpu: 1002:7590-1DA2:A493-0000:03:00.0
+plots_time_period: 60
+plots_per_row: 2
+stats_poll_interval_ms: 500
+gpus:
+  1002:7590-1DA2:A493-0000:03:00.0:
+    plots:
+    - - !Temperature edge
+      - !Temperature junction
+      - !Temperature mem
+    - - GpuClock
+      - GpuTargetClock
+      - VramClock
+    - - FanRpm
+      - FanPwm
+    - - PowerAverage
+      - PowerCap
+  1002:164E-1043:8877-0000:08:00.0:
+    plots:
+    - - !Temperature edge
+    - - GpuClock
+      - VramClock
+    - []
+    - - PowerCurrent

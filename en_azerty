@@ -1,0 +1,66 @@
+// English (AZERTY Clean) - AZERTY layout with English punctuation and symbols
+// Author: ChatGPT
+// Based on physical AZERTY with US/EN symbols
+
+default  partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1] = "English (AZERTY)";
+
+    // Row 1 (numbers and symbols)
+    key <TLDE> { [grave, asciitilde ] };       // ` ~
+    key <AE01> { [1, exclam ] };               // 1 !
+    key <AE02> { [2, at ] };                   // 2 @
+    key <AE03> { [3, numbersign ] };           // 3 #
+    key <AE04> { [4, dollar ] };               // 4 $
+    key <AE05> { [5, percent ] };              // 5 %
+    key <AE06> { [6, asciicircum ] };          // 6 ^
+    key <AE07> { [7, ampersand ] };            // 7 &
+    key <AE08> { [8, asterisk ] };             // 8 *
+    key <AE09> { [9, parenleft ] };            // 9 (
+    key <AE10> { [0, parenright ] };           // 0 )
+    key <AE11> { [minus, underscore ] };       // - _
+    key <AE12> { [equal, plus ] };             // = +
+
+    // Row 2 (AZERTY letters)
+    key <AD01> { [q, Q ] };
+    key <AD02> { [w, W ] };
+    key <AD03> { [e, E, U0259 ] };
+    key <AD04> { [r, R ] };
+    key <AD05> { [t, T, Greek_theta ] };
+    key <AD06> { [y, Y ] };
+    key <AD07> { [u, U, udiaeresis ] };
+    key <AD08> { [i, I ] };
+    key <AD09> { [o, O, odiaeresis ] };
+    key <AD10> { [p, P ] };
+    key <AD11> { [bracketleft, braceleft ] };
+    key <AD12> { [bracketright, braceright ] };
+
+    // Row 3
+    key <AC01> { [a, A, adiaeresis ] };
+    key <AC02> { [s, S, U0283 ] };
+    key <AC03> { [d, D ] };
+    key <AC04> { [f, F ] };
+    key <AC05> { [g, G ] };
+    key <AC06> { [h, H ] };
+    key <AC07> { [j, J ] };
+    key <AC08> { [k, K ] };
+    key <AC09> { [l, L ] };
+    key <AC10> { [m, M ] };
+    key <AC11> { [apostrophe, quotedbl ] };
+
+    // Row 4
+    key <AB01> { [z, Z ] };
+    key <AB02> { [x, X ] };
+    key <AB03> { [c, C ] };
+    key <AB04> { [v, V ] };
+    key <AB05> { [b, B ] };
+    key <AB06> { [n, N ] };
+    key <AB07> { [semicolon, colon ] };
+    key <AB08> { [comma, less ] };
+    key <AB09> { [period, greater ] };
+    key <AB10> { [slash, question ] };
+
+    include "level3(ralt_switch)"
+};
+

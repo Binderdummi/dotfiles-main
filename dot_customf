@@ -1,0 +1,39 @@
+function lvim
+    nvim $argv[1]
+end
+
+function c
+    clear
+end
+
+function venv
+    if test -d ~/projects/.venv
+        source ~/projects/.venv/bin/activate.fish
+    else
+        echo "Virtual environment not found at ~/projects/.venv"
+    end
+end
+
+function pybuild
+    if test (count $argv) -eq 0
+        echo "Usage: pybuild <python_script.py>"
+        return 1
+    end
+    venv
+    pyinstaller --onefile $argv[1]
+end
+
+#function pacman
+#    switch $argv[1]
+#        case "-S"
+#            sudo apt install $argv[2]
+#        case "-Ss"
+#            apt search $argv[2]
+#        case "-R"
+#            sudo apt remove $argv[2]
+#        case "-RR"
+#            sudo apt autoremove
+#        case '*'
+#            echo "Usage: pac {-S|-Ss|-R|-RR} <package>"
+#    end
+#end

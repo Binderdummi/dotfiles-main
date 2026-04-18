@@ -1,0 +1,10 @@
+[mgr]
+prepend_keymap = [
+  { on = "<C-q>", run = "close", desc = "Single action with `Ctrl + q`" },
+  { on = "<Enter>", run = "enter"},
+  { on = "<C-Enter>", run = "back"},
+  { on = "<e>", run = "open"},
+  { on = "<f>", run = "find"},
+  { on = "<a>", run = "toggle_all"},
+  { on = "<S-a>", run = "toggle"}
+]

@@ -1,0 +1,41 @@
+* {
+border: none;
+border-radius: 0;
+font-family: 'CodeNewRoman Nerd Font';
+font-size: 15px;
+min-height: 0;
+   }
+
+window#waybar {
+background-color: rgba(10, 0, 17, 0.67);
+}
+
+#workspaces button{
+padding: 0 4px;
+border-bottom: 2px solid rgb(208, 166, 252);
+}
+
+#workspaces button.active {
+  border-bottom: 3px solid rgb(208, 166, 252);
+  padding: 2px;
+}
+
+#workspaces button.urgent {
+border-bottom: 2px solid rgb(204, 25, 2)
+
+}
+
+#window {
+
+padding: 0 4px;
+
+}
+
+#tray {
+padding: 8px;
+
+}
+
+#wireplumber {
+color: rgb(252, 131, 2);
+}
