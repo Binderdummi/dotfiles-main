@@ -6,13 +6,33 @@
     "height": 32,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["memory", "pulseaudio", "clock", "tray", "custom/lock", "custom/power"],
+
+    "memory": {
+      "format": "󰍛 {}%",
+      "on-click": "kitty btop"
+  },
+    "hyprland/window": {
+        "format": "{title}",
+        "rewrite": {
+          "": "Empty",
+          "(.*) — Zen Browser": "Zen",
+          "(.*) - Discord": "Discord",
+          "(.*) ~": "Fish",
+          "fish": "Fish"
+    },
+    },
     "hyprland/workspaces": {
          "format": " {icon} ",
          "format-icons": {
-             "default": "",
-             "active": ""
+             //"default": "",
+             //"active": ""
+            "default": "",
+            "active": ""
          },
+      "persistent-workspaces": {
+        "*": 3
+      }
      },
     "tray": {
         "icon-size": 16,
@@ -28,7 +48,7 @@
         "max-length": 50
     },
     "clock": {
-        "timezone": "Asia/Dubai",
+        "timezone": "Europe/Berlin",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "  {:%d/%m/%Y}",
         "format": "  {:%H:%M}"

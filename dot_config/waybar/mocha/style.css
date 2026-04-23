@@ -7,26 +7,28 @@
 }
 
 #waybar {
-  background-color: shade(@base, 0.9);
+  background-color: rgba(30, 30, 46, 0);
   color: @text;
   margin: 5px 5px;
 }
 
 #workspaces {
   border-radius: 1rem;
-  margin: 1px;
+  margin: 8px;
+  padding: 4px;
   background-color: @surface0;
-  margin-left: 1rem;
+  margin-left: 10px;
 }
 
 #workspaces button {
-  color: @lavender;
+  background-color: #1a1a29;
   border-radius: 1rem;
   padding: 0.2rem;
+  margin: 0.05rem;
 }
 
 #workspaces button.active {
-  color: @sky;
+  background-color: @blue;
   border-radius: 1rem;
 }
 
@@ -34,7 +36,7 @@
   color: @sapphire;
   border-radius: 1rem;
 }
-
+#memory,
 #window,
 #tray,
 #backlight,
@@ -45,13 +47,18 @@
 #custom-power {
   background-color: @surface0;
   padding: 0.5rem 1rem;
-  margin: 1px 0;
+  margin: 8px 0;
 }
 
 #clock {
   color: @blue;
   border-radius: 0px 1rem 1rem 0px;
   margin-right: 1rem;
+}
+
+#memory {
+  color: @mauve;
+  border-radius: 1rem;
 }
 
 #battery {
@@ -78,6 +85,7 @@
   color: @maroon;
   border-radius: 1rem 0px 0px 1rem;
   margin-left: 1rem;
+
 }
 
 #window {
