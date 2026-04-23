@@ -4,9 +4,10 @@ if status is-interactive
     source ~/.customf
     source ~/Applications/update.fish
     source ~/Applications/install.fish
-    source ~/Applications/duplicate.fish
+    source ~/Applications/dotfiles_sync.fish
     source (/usr/bin/starship init fish --print-full-init | psub)
     alias n nvim
+    alias ls "ls --color"
     alias lsa "ls --color -a"
     #    alias update "sudo pacman-key --init; sudo pacman-key --populate; yay -Syyu --noconfirm; flatpak update"
     alias cbonsai "cbonsai --live -i -M 10"
@@ -14,6 +15,7 @@ if status is-interactive
     alias fj fastfetch
     alias t "ttyper -w 10"
     alias ttt "ttyper -w 10 --sudden-death -l english1000"
+    alias rm "rm -rf"
     # =============================================================================
     #
     # Utility functions for zoxide.
@@ -128,5 +130,4 @@ if status is-interactive
     #
     #   zoxide init fish | source
 end
-export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
