@@ -13,7 +13,7 @@
 }
 
 #workspaces {
-  border-radius: 1rem;
+  border-radius: 16px;
   margin: 8px;
   padding: 4px;
   background-color: @surface0;
@@ -22,19 +22,19 @@
 
 #workspaces button {
   background-color: #1a1a29;
-  border-radius: 1rem;
+  border-radius: 16px;
   padding: 0.2rem;
   margin: 0.05rem;
 }
 
 #workspaces button.active {
   background-color: @blue;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 #workspaces button:hover {
   color: @sapphire;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 #memory,
 #window,
@@ -47,18 +47,19 @@
 #custom-power {
   background-color: @surface0;
   padding: 0.5rem 1rem;
+  border-radius: 16px;
   margin: 8px 0;
 }
 
 #clock {
   color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
+  border-radius: 0px 16px 16px 0px;
   margin-right: 1rem;
 }
 
 #memory {
   color: @mauve;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 #battery {
@@ -83,28 +84,28 @@
 
 #pulseaudio {
   color: @maroon;
-  border-radius: 1rem 0px 0px 1rem;
+  border-radius: 16px 0px 0px 16px;
   margin-left: 1rem;
 
 }
 
 #window {
   color: @mauve;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 #custom-lock {
-    border-radius: 1rem 0px 0px 1rem;
+    border-radius: 16px 0px 0px 16px;
     color: @lavender;
 }
 
 #custom-power {
     margin-right: 1rem;
-    border-radius: 0px 1rem 1rem 0px;
+    border-radius: 0px 16px 16px 0px;
     color: @red;
 }
 
 #tray {
   margin-right: 1rem;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
