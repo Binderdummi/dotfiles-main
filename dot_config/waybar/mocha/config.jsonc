@@ -85,7 +85,7 @@
     },
     "custom/power": {
         "tooltip": false,
-        "on-click": "wlogout &",
+        "on-click": "systemctl poweroff",
         "format": ""
     }
 }
