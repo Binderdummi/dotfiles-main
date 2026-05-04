@@ -1,4 +1,4 @@
-@import "mocha.css";
+@import "coffe.css";
 
 * {
   font-family: ZedMono Nerd Font;
@@ -17,19 +17,19 @@
   border-radius: 16px;
   margin: 8px;
   padding: 4px;
-  background-color: @surface0;
+  background-color: @base;
   margin-left: 10px;
 }
 
 #workspaces button {
-  background-color: #1a1a29;
+  background-color: @mantle;
   border-radius: 16px;
   padding: 0.2rem;
   margin: 0.05rem;
 }
 
 #workspaces button.active {
-  background-color: @blue;
+  background-color: @sapphire;
   border-radius: 16px;
 }
 
@@ -46,7 +46,7 @@
 #pulseaudio,
 #custom-lock,
 #custom-power {
-  background-color: @surface0;
+  background-color: @base;
   padding: 0.5rem 1rem;
   border-radius: 16px;
   margin: 8px 0;
@@ -59,7 +59,7 @@
 }
 
 #memory {
-  color: @mauve;
+  color: @text;
   border-radius: 16px;
 }
 
@@ -91,19 +91,19 @@
 }
 
 #window {
-  color: @mauve;
+  color: @text;
   border-radius: 16px;
 }
 
 #custom-lock {
     border-radius: 16px 0px 0px 16px;
-    color: @lavender;
+    color: @blue;
 }
 
 #custom-power {
     margin-right: 1rem;
     border-radius: 0px 16px 16px 0px;
-    color: @red;
+    color: @blue;
 }
 
 #tray {
