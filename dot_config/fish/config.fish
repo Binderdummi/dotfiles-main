@@ -17,6 +17,7 @@ if status is-interactive
     alias ttt "ttyper -w 10 --sudden-death -l english1000"
     alias rm "rm -rf"
     alias dd "dd status=progress bs=56M"
+    alias wc wl-copy
     # =============================================================================
     #
     # Utility functions for zoxide.
