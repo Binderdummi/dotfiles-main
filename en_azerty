@@ -19,15 +19,15 @@ xkb_symbols "basic" {
     key <AE08> { [8, asterisk ] };             // 8 *
     key <AE09> { [9, parenleft ] };            // 9 (
     key <AE10> { [0, parenright ] };           // 0 )
-    key <AE11> { [minus, underscore ] };       // - _
+    key <AE11> { [minus, underscore, apostrophe] };       // - _
     key <AE12> { [equal, plus ] };             // = +
 
     // Row 2 (AZERTY letters)
     key <AD01> { [q, Q ] };
     key <AD02> { [w, W ] };
-    key <AD03> { [e, E, U0259 ] };
+    key <AD03> { [e, E] };
     key <AD04> { [r, R ] };
-    key <AD05> { [t, T, Greek_theta ] };
+    key <AD05> { [t, T ] };
     key <AD06> { [y, Y ] };
     key <AD07> { [u, U, udiaeresis ] };
     key <AD08> { [i, I ] };
@@ -38,7 +38,7 @@ xkb_symbols "basic" {
 
     // Row 3
     key <AC01> { [a, A, adiaeresis ] };
-    key <AC02> { [s, S, U0283 ] };
+    key <AC02> { [s, S, U00DF] };
     key <AC03> { [d, D ] };
     key <AC04> { [f, F ] };
     key <AC05> { [g, G ] };
@@ -46,8 +46,8 @@ xkb_symbols "basic" {
     key <AC07> { [j, J ] };
     key <AC08> { [k, K ] };
     key <AC09> { [l, L ] };
-    key <AC10> { [m, M ] };
-    key <AC11> { [apostrophe, quotedbl ] };
+    key <AC10> { [semicolon, colon ] };
+    key <AC11> { [quotedbl, minus, underscore ] };
 
     // Row 4
     key <AB01> { [z, Z ] };
@@ -56,7 +56,7 @@ xkb_symbols "basic" {
     key <AB04> { [v, V ] };
     key <AB05> { [b, B ] };
     key <AB06> { [n, N ] };
-    key <AB07> { [semicolon, colon ] };
+    key <AB07> { [m, M ] };
     key <AB08> { [comma, less ] };
     key <AB09> { [period, greater ] };
     key <AB10> { [slash, question ] };
