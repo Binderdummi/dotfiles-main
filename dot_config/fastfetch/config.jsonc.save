@@ -1,7 +1,7 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "arch_small",
+    "source": "~/.config/images/arch.txt",
     "color": {
       "1": "#C6B7FF",
     },
@@ -30,6 +30,13 @@
       "format": "Arch (Btw)",
     },
     {
+      "type": "host",
+      "key": "🖥 ",
+      "keyColor": "#B8A6FF",
+      "color": "#E6E0FF",
+      "format": "Zeibook Air",
+    },
+    {
       "type": "shell",
       "format": "{}",
       "key": ">_",
@@ -54,18 +61,18 @@
       "key": "󰍛 ",
       "keyColor": "#B8A6FF",
       "color": "#E6E0FF",
-      "format": "{}",
+      "format": "intel(R) i7-5650U",
     },
     {
-      "type": "custom",
+      "type": "gpu",
       "key": "󰢮 ",
       "keyColor": "#B8A6FF",
       "color": "#E6E0FF",
-      "format": "AMD RX 9060 XT 16GB",
+      "format": "Intel(R) HD 6000",
     },
     {
       "type": "memory",
-      "key": " ",
+      "key": "🎟 ",
       "keyColor": "#B8A6FF",
       "color": "#E6E0FF",
       "format": "{} {}",
