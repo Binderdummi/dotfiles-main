@@ -49,8 +49,8 @@
 @define-color crust-rgb  rgb(17, 17, 27);
 
 * {
-  font-family: 'CodeNewRoman Nerd Font', monospace;
-  font-size: 16px;
+  font-family: 'ZedMono Nerd Font', monospace;
+  font-size: 15px;
 }
 
 /* Window */

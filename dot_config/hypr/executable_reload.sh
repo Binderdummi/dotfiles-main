@@ -3,6 +3,7 @@ pkill waybar
 pkill sway_nc
 pkill kanata
 pkill ydotoold
+hyprctl reload
 hyprpaper &
 waybar -s .config/waybar/mocha/style.css -c .config/waybar/mocha/config.jsonc &
 swaync &

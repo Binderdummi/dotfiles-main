@@ -19,7 +19,7 @@ xkb_symbols "basic" {
     key <AE08> { [8, asterisk ] };             // 8 *
     key <AE09> { [9, parenleft ] };            // 9 (
     key <AE10> { [0, parenright ] };           // 0 )
-    key <AE11> { [minus, underscore, apostrophe] };       // - _
+    key <AE11> {[ quotebl, minus, underscore ]}; // - _
     key <AE12> { [equal, plus ] };             // = +
 
     // Row 2 (AZERTY letters)
@@ -47,7 +47,7 @@ xkb_symbols "basic" {
     key <AC08> { [k, K ] };
     key <AC09> { [l, L ] };
     key <AC10> { [semicolon, colon ] };
-    key <AC11> { [quotedbl, minus, underscore ] };
+    key <AC11> { [apostrophe, underscore, minus ] };
 
     // Row 4
     key <AB01> { [z, Z ] };
